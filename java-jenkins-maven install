@@ -3,7 +3,7 @@ java 11 + maven 3.8.6 + jenkins
 1. Install java11
 ==> sudo amazon-linux-extras install java-openjdk11
 ==> find / -name java-11*
-/usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64
+/usr/lib/jvm/java-11-openjdk-11.0.20.0.8-1.amzn2.0.1.x86_64
 
 2. install maven
 ==> cd /opt
@@ -32,6 +32,7 @@ export PATH
 =======================================================================
 ==> source .bash_profile
 ==> echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bin:/usr/lib/jvm/java-11-openjdk-11.0.20.0.8-1.amzn2.0.1.x86_64:/opt/maven:/opt/maven/bin:/root/bin:/usr/lib/jvm/java-11-openjdk-11.0.20.0.8-1.amzn2.0.1.x86_64:/opt/maven:/opt/maven/bin
 3. Install Jenkins for java11
 
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
